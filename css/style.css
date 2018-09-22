@@ -1,0 +1,152 @@
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262 !important;
+}
+span{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color:#b4ad9e;
+}
+h1{
+	font-size: 30px;
+	margin: 0 !important;
+	padding: 30px 0 !important;
+}
+p{
+	font-size: 14px;
+	margin-bottom: 0 !important;
+	margin-bottom: 50px !important;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*header-start*/
+header{
+	padding: 55px 0;
+}
+.logo{
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+}
+.menu-bar{
+
+}
+.menu-bar ul li a{
+    font-size: 14px;
+    padding: 0 !important;
+    padding: 0 60px !important;
+    color: #626262 !important;
+    transition: 0.5s;
+}
+.menu-bar ul li a:hover {
+	color: #00B0DE !important;
+}
+.menu-bar ul li:first-child a {
+	padding-left: 0 !important;
+}
+.menu-bar ul li:last-child a {
+	padding-right: 0 !important;
+}
+/*header-end*/
+
+/*banner-start*/
+.banner-image img{
+	width: 100%;
+}
+/*banner-end*/
+
+/*getaway-section-start*/
+.getaway{
+	padding: 95px 0;
+}
+/*getaway-section-end*/
+
+/*life-style-start*/
+.margin-bottom{
+	margin-bottom: 85px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+/*life-style-end*/
+
+/*sign-up-section-start*/
+.sign-up{
+	background: #F0F0F0;
+	padding: 74px 0;
+}
+/*.sign-up-contant{
+	position: relative;
+}*/
+.mb-or-color{
+	margin-bottom: 50px !important;
+	color: #333333;
+}
+.custom-signup-input input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+    font-size: 14px;
+    color: #626262;
+    padding-left: 0;
+}
+.custom-signup-button span{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+    line-height: 23px;
+    padding: 7px 15px;
+    font-size: 23px;
+}
+.custom-signup-button span:focus{
+	background: transparent;
+}
+/*sign-up-section-end*/
+/*gold-winter-start*/
+.gold-winter{
+	padding: 105px 0;
+}
+
+.gw-button{
+    text-align: center;
+}
+.gw-button button{
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+    margin-top: 50px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gw-button button:hover{
+	background: #626262 !important;
+	color: #ffffff !important;
+}
+/*gold-winter-end*/
+/*footer-section-start*/
+footer{
+	padding: 40px 0;
+	background: #F0F0F0;
+}
+.footer-contant ul li{
+	font-size: 14px;
+	color: #000000 !important;
+	margin-right: 17px !important;
+}
+.footer-contant ul li:last-child{
+	margin-right: 0 !important;
+}
+.footer-contant i{
+	color: #878787;
+}
+/*footer-section-end*/
